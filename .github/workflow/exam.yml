@@ -17,11 +17,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x' # You can specify a specific Python version here
+          python-version: '3.x'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Step 4: Build the application
+   
       - name: Build the application
         run: ./build.sh
